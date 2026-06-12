@@ -4,7 +4,7 @@
 
 ## 📦 技能列表
 
-### 1. CatClub-Card - 铸卡器
+### 1. catclub-card - 铸卡器
 
 **功能**：将文本/URL/文件转换为品牌风格的 PNG 视觉卡片
 
@@ -28,7 +28,7 @@
 
 ---
 
-### 2. CatsClub-Wechat - 狲熊排版器
+### 2. catsclub-wechat - 狲熊排版器
 
 **功能**：将 Markdown 或纯文本转换为微信公众号文章排版
 
@@ -82,12 +82,12 @@
 
 | 需求 | 推荐技能 |
 |------|---------|
-| 把文章变成视觉卡片发朋友圈/小红书 | CatClub-Card |
-| 制作信息图、漫画、视觉笔记 | CatClub-Card |
-| 公众号文章排版美化 | CatsClub-Wechat |
+| 把文章变成视觉卡片发朋友圈/小红书 | catclub-card |
+| 制作信息图、漫画、视觉笔记 | catclub-card |
+| 公众号文章排版美化 | catsclub-wechat |
 | 建立品牌视觉和语气规范 | brand-voice-builder |
 | 为新项目定义品牌人格 | brand-voice-builder |
-| 快速生成带品牌签名的PNG | CatClub-Card |
+| 快速生成带品牌签名的PNG | catclub-card |
 
 ---
 
@@ -96,13 +96,13 @@
 ```
 sunxiong-skills/
 ├── Qoder-skills/
-│   ├── CatClub-Card/           # 铸卡器
+│   ├── catclub-card/           # 铸卡器
 │   │   ├── SKILL.md
 │   │   ├── package.json        # Playwright 依赖
 │   │   ├── assets/             # 模板HTML、Logo、头像、截图脚本
 │   │   └── references/         # 品牌设计规范、各模具详细说明
 │   │
-│   ├── CatsClub-Wechat/        # 狲熊排版器
+│   ├── catsclub-wechat/        # 狲熊排版器
 │   │   ├── SKILL.md
 │   │   ├── README.md
 │   │   ├── test-prompts.json
@@ -134,7 +134,7 @@ sunxiong-skills/
 ### 依赖安装（仅 CatClub-Card 需要）
 
 ```bash
-cd Qoder-skills/CatClub-Card
+cd Qoder-skills/catclub-card
 npm install playwright
 npx playwright install chromium
 ```
