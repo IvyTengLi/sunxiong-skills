@@ -5,7 +5,7 @@ user_invocable: true
 version: "1.0.0"
 ---
 
-# CatClub-Card: 铸
+# catclub-card: 铸
 
 将内容铸成可见的形态。内容进去，PNG 出来。模具决定形状。
 
@@ -119,7 +119,7 @@ version: "1.0.0"
 
 | 占位符 | 含义 | 典型值 |
 |--------|------|--------|
-| `{SKILL_DIR}` | skill 安装目录 | `~/.qoder/skills/CatClub-Card/` 或 runtime 对应路径 |
+| `{SKILL_DIR}` | skill 安装目录 | `~/.qoder/skills/catclub-card/` 或 runtime 对应路径 |
 | `{OUTPUT_DIR}` | 输出目录 | `./`（当前工作目录） |
 
 **所有路径引用统一格式**：`{SKILL_DIR}/assets/...`、`{SKILL_DIR}/references/...`

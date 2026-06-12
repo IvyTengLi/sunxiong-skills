@@ -1,11 +1,11 @@
 ---
 name: catsclub-wechat
-description: 狲熊排版器（CatsClub-Wechat）。将 Markdown 或纯文本转换为狲熊AI训练营品牌风格的公众号文章排版，提供 6 种狲熊专属风格、幽默元素体系、🐾 品牌签名、内容审视与AI插图提示词。当用户提到"狲熊排版"、"公众号排版"、"文章排版"、"排版工作室"、"排版美化"或上传内容要求转成公众号格式时，使用此技能。也适用于用户说"排版"、"美化文章"、"打开排版器"等表达。如果用户上传了 .md 文件且没有其他明确意图，也应优先考虑此技能。
+description: 狲熊排版器（catsclub-wechat）。将 Markdown 或纯文本转换为狲熊AI训练营品牌风格的公众号文章排版，提供 6 种狲熊专属风格、幽默元素体系、🐾 品牌签名、内容审视与AI插图提示词。当用户提到"狲熊排版"、"公众号排版"、"文章排版"、"排版工作室"、"排版美化"或上传内容要求转成公众号格式时，使用此技能。也适用于用户说"排版"、"美化文章"、"打开排版器"等表达。如果用户上传了 .md 文件且没有其他明确意图，也应优先考虑此技能。
 user_invocable: true
 version: "1.0.0"
 ---
 
-# 狲熊排版器（CatsClub-Wechat）
+# 狲熊排版器（catsclub-wechat）
 
 把任何文本内容变成狲熊AI训练营品牌风格的公众号文章排版。**6 种狲熊专属风格 + 幽默元素体系 + 🐾 品牌签名 + 内容审视**，实时预览，一键复制粘贴到微信公众号编辑器。
 
@@ -48,7 +48,7 @@ cmd.exe /c start mp-studio.html
 
 | 症状 | 一线修复 | 仍失败兜底 |
 |------|---------|-----------|
-| `cp: No such file` — studio.html 不存在 | 检查 `$SKILL_PATH` 是否正确指向 skill 目录 | 从 GitHub 手动下载：`curl -L github.com/IvyTengLi/sunxiong/raw/main/.qoder/skills/CatsClub-Wechat/assets/studio.html -o mp-studio.html` |
+| `cp: No such file` — studio.html 不存在 | 检查 `$SKILL_PATH` 是否正确指向 skill 目录 | 从 GitHub 手动下载：`curl -L github.com/IvyTengLi/sunxiong/raw/main/.qoder/skills/catsclub-wechat/assets/studio.html -o mp-studio.html` |
 | `open: command not found` — macOS 无 open | 尝试 `xdg-open`（跨平台兼容） | 提示用户手动双击 mp-studio.html 打开 |
 | 浏览器打开但显示空白 | 检查文件大小是否为 0；重新复制 | 用文本编辑器直接打开 studio.html 另存为 |
 | Qoder 网页端 iframe 限制 | 提供下载链接让用户本地打开 | 生成 HTML artifact 供用户复制源码 |

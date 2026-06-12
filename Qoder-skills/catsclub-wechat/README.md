@@ -1,4 +1,4 @@
-# 狲熊排版器（CatsClub-Wechat）
+# 狲熊排版器（catsclub-wechat）
 
 > 将 Markdown / 纯文本一键转换为微信公众号排版，6 种品牌风格 + 幽默元素体系 + 🐾 品牌签名 + 智能配图建议。
 
@@ -7,7 +7,7 @@
 ## 目录结构
 
 ```
-CatsClub-Wechat/
+catsclub-wechat/
 ├── SKILL.md              # Qoder 技能定义（AI 读取此文件驱动行为）
 ├── README.md             # 本文档
 ├── test-prompts.json     # 测试用例提示词
@@ -22,12 +22,12 @@ CatsClub-Wechat/
 
 ## 安装方法
 
-将整个 `CatsClub-Wechat` 文件夹复制到目标项目的 skills 目录下：
+将整个 `catsclub-wechat` 文件夹复制到目标项目的 skills 目录下：
 
 ```bash
-cp -r CatsClub-Wechat /你的项目路径/.qoder/skills/
+cp -r catsclub-wechat /你的项目路径/.qoder/skills/
 # 或 QoderWork
-cp -r CatsClub-Wechat /你的项目路径/.qoderwork/skills/
+cp -r catsclub-wechat /你的项目路径/.qoderwork/skills/
 ```
 
 安装后 Qoder 会自动识别此技能，无需额外配置。
@@ -78,7 +78,7 @@ cp -r CatsClub-Wechat /你的项目路径/.qoderwork/skills/
 | 仅上传 .md 文件（无其他明确指令） | 打开中控台，提示用户粘贴内容 |
 | "换个风格" / "用 xxx 风格" | 打开中控台，提示切换风格 |
 | "美化文章" / "转成公众号格式" | 打开中控台 |
-| 触发词：`/CatsClub-Wechat` | 直接执行完整排版流程 |
+| 触发词：`/catsclub-wechat` | 直接执行完整排版流程 |
 
 **AI 的自动行为范围：**
 - 复制 `studio.html` 到工作目录

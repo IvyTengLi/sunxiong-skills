@@ -19,7 +19,7 @@
 
 ## 默认无 Logo 策略
 
-自本版本起，CatClub-Card 默认**不放置 Logo**，仅保留底部 `.brand-signature`（🐾 狲熊AI训练营 + slogan）。
+自本版本起，catclub-card 默认**不放置 Logo**，仅保留底部 `.brand-signature`（🐾 狲熊AI训练营 + slogan）。
 
 **默认行为（无 `--logo` 参数）：**
 1. 首次生成时，`{{LOGO_FILE}}` 注入 1px 透明 GIF 占位图：`data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7`
