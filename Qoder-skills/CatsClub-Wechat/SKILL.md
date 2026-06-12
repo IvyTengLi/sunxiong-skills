@@ -1,5 +1,5 @@
 ---
-name: CatsClub-Wechat
+name: catsclub-wechat
 description: 狲熊排版器（CatsClub-Wechat）。将 Markdown 或纯文本转换为狲熊AI训练营品牌风格的公众号文章排版，提供 6 种狲熊专属风格、幽默元素体系、🐾 品牌签名、内容审视与AI插图提示词。当用户提到"狲熊排版"、"公众号排版"、"文章排版"、"排版工作室"、"排版美化"或上传内容要求转成公众号格式时，使用此技能。也适用于用户说"排版"、"美化文章"、"打开排版器"等表达。如果用户上传了 .md 文件且没有其他明确意图，也应优先考虑此技能。
 user_invocable: true
 version: "1.0.0"

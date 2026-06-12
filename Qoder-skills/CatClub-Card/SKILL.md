@@ -1,5 +1,5 @@
 ---
-name: CatClub-Card
+name: catclub-card
 description: "Content caster for 狲熊AI训练营 (PandaCat AI Camp). Transforms text/URL/file into branded PNG visuals. Seven molds: -l long card, -i infograph, -m multi-card (1080x1440), -v sketchnote, -c comic (B&W), -w whiteboard, -b big-fonts (小红书 style). Output to {OUTPUT_DIR}. Trigger: 铸, cast, 做成图/卡片/信息图/海报, 视觉笔记, sketchnote, 漫画, comic, 白板, whiteboard, 大字, 附件图, big fonts, 小红书卡片."
 user_invocable: true
 version: "1.0.0"
@@ -366,7 +366,7 @@ Step 10: 格式化为 HTML → 按模具元素规范生成 HTML，注入模板�
        <p class="sig-text">……</p>
      </div>
    </div>
-   ```
+```
 
 
    **变量分组（按功能）：**
